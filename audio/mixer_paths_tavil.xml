@@ -251,7 +251,7 @@
     <ctl name="MultiMedia2 Mixer SLIM_8_TX" value="0" />
     <ctl name="QUAT_MI2S_RX Port Mixer SLIM_8_TX" value="0" />
     <ctl name="QUAT_MI2S_RX_DL_HL Switch" value="0" />
-    <ctl name="FM_LNA_ENABLE" value="On" />
+    <ctl name="FM_LNA_ENABLE" value="Off" />
     <!-- fm end -->
 
     <!-- Voice -->
@@ -723,10 +723,6 @@
 
     <path name="echo-reference-voip headphones">
         <ctl name="AUDIO_REF_EC_UL10 MUX" value="SLIM_6_RX" />
-    </path>
-
-    <path name="echo-reference-voip headset">
-        <path name="echo-reference-voip headphones" />
     </path>
 
     <path name="echo-reference-voip display-port">
