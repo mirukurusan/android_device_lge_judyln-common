@@ -2024,6 +2024,11 @@
         <ctl name="PRI_MI2S_RX_VI_FB_MUX" value="QUAT_MI2S_TX" />
     </path>
 
+    <!-- Speaker protection (VI feedback) for the TFA9872 smart amp -->
+    <path name="3rdP-speaker-protected">
+        <ctl name="PRI_MI2S_RX_VI_FB_MUX" value="QUAT_MI2S_TX" />
+    </path>
+
     <!-- These are actual sound device specific mixer settings -->
     <path name="amic1">
         <ctl name="AIF1_CAP Mixer SLIM TX6" value="1"/>
