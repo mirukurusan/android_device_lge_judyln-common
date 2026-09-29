@@ -1521,6 +1521,7 @@
         <ctl name="SLIMBUS_8 LOOPBACK Volume" value="1" />
         <ctl name="SLIMBUS_0_RX Port Mixer SLIM_8_TX" value="1" />
         <ctl name="SLIMBUS_DL_HL Switch" value="1" />
+        <ctl name="FM_LNA_ENABLE" value="On" />
     </path>
 
     <path name="play-fm speaker-and-headphones">
@@ -1532,12 +1533,14 @@
         <ctl name="SLIMBUS_8 LOOPBACK Volume" value="1" />
         <ctl name="SLIMBUS_6_RX Port Mixer SLIM_8_TX" value="1" />
         <ctl name="SLIMBUS6_DL_HL Switch" value="1" />
+        <ctl name="FM_LNA_ENABLE" value="On" />
     </path>
 
     <path name="play-fm speaker">
         <ctl name="SLIMBUS_8 LOOPBACK Volume" value="1" />
         <ctl name="QUAT_MI2S_RX Port Mixer SLIM_8_TX" value="1" />
         <ctl name="QUAT_MI2S_RX_DL_HL Switch" value="1" />
+        <ctl name="FM_LNA_ENABLE" value="On" />
     </path>
 
     <path name="play-fm headset">
