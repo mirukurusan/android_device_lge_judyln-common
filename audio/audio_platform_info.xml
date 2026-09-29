@@ -106,6 +106,8 @@
         <usecase name="USECASE_AUDIO_RECORD_COMPRESS2" type="in" id="43" />
         <usecase name="USECASE_AUDIO_PLAYBACK_DUAL_AUDIO" type="in" id="92"/>
         <usecase name="USECASE_AUDIO_PLAYBACK_DUAL_AUDIO" type="out" id="92"/>
+        <usecase name="USECASE_AUDIO_SPKR_CALIB_TX" type="in" id="35"/>
+        <usecase name="USECASE_AUDIO_3RDP_SPKR_PROT_TX" type="in" id="91"/>
     </pcm_ids>
     <config_params>
         <param key="spkr_1_tz_name" value="wsatz.13"/>
