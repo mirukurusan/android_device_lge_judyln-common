@@ -670,6 +670,7 @@
     <ctl name="Es9018 AVC Volume" value="25" />
     <ctl name="SPK Profile" value="mboom" />
     <ctl name="SPK SaaM" value="0" />
+    <ctl name="SPK Hostless Enable" value="0" />
 
     <!-- Codec controls end -->
 
@@ -1541,6 +1542,7 @@
         <ctl name="QUAT_MI2S_RX Port Mixer SLIM_8_TX" value="1" />
         <ctl name="QUAT_MI2S_RX_DL_HL Switch" value="1" />
         <ctl name="FM_LNA_ENABLE" value="On" />
+        <ctl name="SPK Hostless Enable" value="1" />
     </path>
 
     <path name="play-fm headset">
