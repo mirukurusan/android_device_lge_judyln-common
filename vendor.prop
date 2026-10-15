@@ -2,8 +2,6 @@
 # vendor props for judyln
 #
 
-# Audio
-ro.hardware.audio.primary=judyln
 
 # Bluetooth
 bluetooth.device.default_name=LG G7 ThinQ

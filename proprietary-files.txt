@@ -6,21 +6,12 @@
 #
 # The following depend on compiler intrinsic symbols that are not exported:
 # com.lge.node.{elpis,elvis,lavis}, com.lge.stats.{af,af_core}, com.qti.chi.override, com.qti.node.memcpy, liblgae_main, sensors.hal.tof
-# audio.primary.judyln depends on many GNU Makefile targets
-
 # ADSP
 vendor/bin/chre
 vendor/lib/libsymphony-1.1.4.so
 vendor/lib/libsymphonypower-1.1.4.so
 vendor/lib64/libsymphony-1.1.4.so
 vendor/lib64/libsymphonypower-1.1.4.so
-
-# Audio
-vendor/lib/hw/audio.primary.sdm845.so:vendor/lib/hw/audio.primary.judyln.so;FIX_SONAME;DISABLE_CHECKELF
-vendor/lib/libaudio_log_utils.so
-vendor/lib64/hw/audio.primary.sdm845.so:vendor/lib64/hw/audio.primary.judyln.so;FIX_SONAME;DISABLE_CHECKELF
-vendor/lib64/libaudio_log_utils.so
-
 # Audio
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/Codec_cal.acdb
