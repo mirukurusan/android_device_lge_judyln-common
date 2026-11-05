@@ -25,6 +25,9 @@ namespace_imports = [
 ]
 
 
+def lib_fixup_system_ext_suffix(lib: str, partition: str, *args, **kwargs):
+    return f'{lib}_system_ext' if partition in ['system_ext'] else None
+
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     (
@@ -34,6 +37,26 @@ lib_fixups: lib_fixups_user_type = {
         'libsndmonitor',
         'libspkrprot',
     ): lib_fixup_remove,
+    (
+        'libAutoContrast',
+        'libarcsoft_beauty_picselfie',
+        'libarcsoft_dualcam_portraitlighting',
+        'libarcsoft_dualcam_refocus',
+        'libarcsoft_dualcam_refocus_front',
+        'libarcsoft_dualcam_refocus_rear_t',
+        'libarcsoft_makeup',
+        'libarcsoft_picselfie_algorithm',
+        'libarcsoft_singlecam_portrait_lighting',
+        'libcvp2',
+        'libcvp2_hfi',
+        'libcvp_common',
+        'libdepthmapdecoder.arcsoft',
+        'liblghdri',
+        'libmorpho_image_stab31',
+        'libmpbase',
+        'libSRIyuv',
+        'libc++_shared',
+    ): lib_fixup_system_ext_suffix,
 }
 
 

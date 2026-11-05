@@ -9,6 +9,7 @@ bluetooth.device.default_name=LG G7 ThinQ
 # Camera
 vendor.lge.faceprint.use.camera=0
 ro.vendor.lge.logical.camera=1
+ro.vendor.lge.aux.camera=1
 ro.vendor.lge.physical.camera=3
 
 # Fingerprint
