@@ -23,7 +23,7 @@ vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
-vendor/lib/hw/camera.sdm845.so
+vendor/lib/hw/camera.sdm845.so:vendor/lib/hw/camera.sdm845.orig.so;MODULE_SUFFIX=.orig;DISABLE_CHECKELF
 vendor/lib/libAutoContrast.so
 vendor/lib/libSJVideoNR.so
 vendor/lib/libarcsoft_beauty_picselfie.so

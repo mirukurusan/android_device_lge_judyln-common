@@ -11,6 +11,7 @@ vendor.lge.faceprint.use.camera=0
 ro.vendor.lge.logical.camera=1
 ro.vendor.lge.aux.camera=1
 ro.vendor.lge.physical.camera=3
+ro.vendor.camera.logical.physical_ids=0,2
 
 # Fingerprint
 persist.vendor.fingerprint.type=rear

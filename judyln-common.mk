@@ -82,6 +82,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
 	$(LOCAL_PATH)
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.sdm845
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.lge
