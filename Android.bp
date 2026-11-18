@@ -1,2 +1,18 @@
 soong_namespace {
 }
+
+cc_library_shared {
+    name: "camera.sdm845",
+    relative_install_path: "hw",
+    vendor: true,
+    compile_multilib: "32",
+    srcs: ["shims/camera.sdm845.cpp"],
+    shared_libs: [
+        "libbase",
+        "libcamera_metadata",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "liblog",
+    ],
+}
